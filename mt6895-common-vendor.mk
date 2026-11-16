@@ -1263,8 +1263,8 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.apuware.utils@2.0 \
     vendor.mediatek.hardware.audio@6.1 \
     vendor.mediatek.hardware.audio@7.1 \
-    vendor.mediatek.hardware.bluetooth.audio@2.1_vendor \
-    vendor.mediatek.hardware.bluetooth.audio@2.2_vendor \
+    vendor.mediatek.hardware.bluetooth.audio@2.1 \
+    vendor.mediatek.hardware.bluetooth.audio@2.2 \
     vendor.mediatek.hardware.camera.atms@1.0 \
     vendor.mediatek.hardware.camera.bgservice@1.0 \
     vendor.mediatek.hardware.camera.bgservice@1.1 \
@@ -1276,7 +1276,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.camera.security@1.0 \
     vendor.mediatek.hardware.clientapi@1.0 \
     vendor.mediatek.hardware.composer_ext@1.0 \
-    vendor.mediatek.hardware.lbs@1.0_vendor \
+    vendor.mediatek.hardware.lbs@1.0 \
     vendor.mediatek.hardware.mmagent@1.0 \
     vendor.mediatek.hardware.mmagent@1.1 \
     vendor.mediatek.hardware.mms@1.0 \
@@ -1286,9 +1286,9 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mms@1.4 \
     vendor.mediatek.hardware.mms@1.5 \
     vendor.mediatek.hardware.mms@1.6 \
-    vendor.mediatek.hardware.mtkradioex@2.0_vendor \
-    vendor.mediatek.hardware.mtkradioex@3.0_vendor \
-    vendor.mediatek.hardware.netdagent@1.0_vendor \
+    vendor.mediatek.hardware.mtkradioex@2.0 \
+    vendor.mediatek.hardware.mtkradioex@3.0 \
+    vendor.mediatek.hardware.netdagent@1.0 \
     vendor.mediatek.hardware.neuropilot.agent@1.0 \
     vendor.mediatek.hardware.neuropilot.agent@1.1 \
     vendor.mediatek.hardware.neuropilot.agent@1.2 \
@@ -1314,15 +1314,15 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.pq@2.9 \
     vendor.mediatek.hardware.videotelephony@1.0_vendor \
     vendor.oplus.hardware.appradioaidl-V1-ndk_platform \
-    vendor.oplus.hardware.cameraextension-V1-ndk_platform_vendor \
-    vendor.oplus.hardware.cammidasservice-V1-ndk_platform_vendor \
+    vendor.oplus.hardware.cameraextension-V1-ndk_platform \
+    vendor.oplus.hardware.cammidasservice-V1-ndk_platform \
     vendor.oplus.hardware.communicationcenter-V1-ndk_platform \
-    vendor.oplus.hardware.cwb@1.0_vendor \
-    vendor.oplus.hardware.display.MixLut3D-V1-ndk_platform_vendor \
-    vendor.oplus.hardware.olc2-V1-ndk_platform_vendor \
-    vendor.oplus.hardware.osense.client-V1-ndk_platform_vendor \
-    vendor.oplus.hardware.performance-V1-ndk_platform_vendor \
-    vendor.oplus.hardware.radio-V2-ndk_platform_vendor \
+    vendor.oplus.hardware.cwb@1.0 \
+    vendor.oplus.hardware.display.MixLut3D-V1-ndk_platform \
+    vendor.oplus.hardware.olc2-V1-ndk_platform \
+    vendor.oplus.hardware.osense.client-V1-ndk_platform \
+    vendor.oplus.hardware.performance-V1-ndk_platform \
+    vendor.oplus.hardware.radio-V2-ndk_platform \
     vendor.oplus.hardware.sendextcamcmd-V2-ndk_platform \
     vendor.oplus.hardware.wifi.supplicant-V4-ndk_platform \
     vendor.pixelworks.hardware.display@1.0 \
