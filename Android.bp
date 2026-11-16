@@ -91,7 +91,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/APUWareUtilsServer.so",
             ],
             shared_libs: [
-                "libion_mtk",
+                "libion_mtk_vendor",
                 "libion",
                 "liblog",
                 "libhidlbase",
@@ -286,7 +286,7 @@ cc_prebuilt_library_shared {
                 "libgpu_aux",
                 "libgpud",
                 "libgralloc_extra",
-                "libladder",
+                "libladder_vendor",
                 "libgralloc_metadata",
                 "libgralloctypes_mtk",
                 "libcutils",
@@ -476,7 +476,7 @@ cc_prebuilt_library_shared {
                 "libtinyxml2",
                 "libaudiotoolkit_vendor",
                 "libmedia_helper",
-                "libladder",
+                "libladder_vendor",
                 "android.hardware.audio@7.0",
                 "android.hardware.audio.common-util",
                 "android.hardware.audio.common@7.0",
@@ -497,10 +497,10 @@ cc_prebuilt_library_shared {
                 "libbwc",
                 "libhidltransport",
                 "libhwbinder",
-                "vendor.mediatek.hardware.bluetooth.audio@2.1",
-                "vendor.mediatek.hardware.bluetooth.audio@2.2",
+                "vendor.mediatek.hardware.bluetooth.audio@2.1_vendor",
+                "vendor.mediatek.hardware.bluetooth.audio@2.2_vendor",
                 "libtinycompress",
-                "libaedv",
+                "libaedv_vendor",
                 "libdrm",
                 "libc++",
                 "libc",
@@ -601,7 +601,7 @@ cc_prebuilt_library_shared {
                 "libprocessgroup",
                 "libbase",
                 "libnativewindow",
-                "libladder",
+                "libladder_vendor",
                 "android.hardware.graphics.mapper@2.0",
                 "android.hardware.graphics.mapper@2.1",
                 "android.hardware.graphics.mapper@4.0",
@@ -612,7 +612,7 @@ cc_prebuilt_library_shared {
                 "libmml",
                 "libdmabufheap",
                 "libxml2",
-                "libaedv",
+                "libaedv_vendor",
                 "libdrm",
                 "libged",
                 "libpq_prot",
@@ -897,7 +897,7 @@ cc_prebuilt_library_shared {
                 "libgralloc_metadata",
                 "libged",
                 "libgralloc_extra",
-                "libion_mtk",
+                "libion_mtk_vendor",
                 "libgpud",
                 "libc++",
                 "libc",
@@ -1056,7 +1056,7 @@ cc_prebuilt_library_shared {
                 "libhardware",
                 "android.frameworks.sensorservice@1.0",
                 "android.hardware.sensors@1.0",
-                "libsensorndkbridge",
+                "libsensorndkbridge_vendor",
                 "liblog",
                 "libutils-v32",
                 "libcutils",
@@ -1184,7 +1184,7 @@ cc_prebuilt_library_shared {
                 "libmedia_helper",
                 "libhidlbase",
                 "vendor.mediatek.hardware.mtkpower@1.0",
-                "libaedv",
+                "libaedv_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -1217,7 +1217,7 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "libcutils",
                 "libion",
-                "libion_mtk",
+                "libion_mtk_vendor",
                 "libhardware",
                 "libdpframework",
                 "libgralloc_extra",
@@ -1403,7 +1403,7 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "libhidltransport",
                 "libutils",
-                "vendor.mediatek.hardware.lbs@1.0",
+                "vendor.mediatek.hardware.lbs@1.0_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -1536,7 +1536,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libjpeg-alpha_vendor",
                 "libion",
-                "libion_mtk",
+                "libion_mtk_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -1653,7 +1653,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libOpenCL",
+    name: "libOpenCL_vendor",
+    stem: "libOpenCL",
     owner: "oppo",
     strip: {
         none: true,
@@ -1998,7 +1999,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libaedv",
+    name: "libaedv_vendor",
+    stem: "libaedv",
     owner: "oppo",
     strip: {
         none: true,
@@ -2155,7 +2157,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libarmnn",
+    name: "libarmnn_vendor",
+    stem: "libarmnn",
     owner: "oppo",
     strip: {
         none: true,
@@ -2725,7 +2728,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libbt-vendor",
+    name: "libbt-vendor_vendor",
+    stem: "libbt-vendor",
     owner: "oppo",
     strip: {
         none: true,
@@ -3467,7 +3471,7 @@ cc_prebuilt_library_shared {
                 "libcodec2_vndk",
                 "libutils",
                 "libion",
-                "libion_mtk",
+                "libion_mtk_vendor",
                 "libdmabufheap",
                 "libc++",
                 "libc",
@@ -3493,7 +3497,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libcodec2_mtk_vdec.so",
             ],
             shared_libs: [
-                "libformatter",
+                "libformatter_vendor",
                 "libdpframework",
                 "android.hardware.graphics.bufferqueue@2.0",
                 "libui",
@@ -3514,7 +3518,7 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "libion",
                 "libdmabufheap",
-                "libion_mtk",
+                "libion_mtk_vendor",
                 "libcodec2_mtk_c2store",
                 "libcodec2_vpp_qt_plugin",
                 "libcodec2_vpp_rs_plugin",
@@ -3544,7 +3548,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libcodec2_mtk_venc.so",
             ],
             shared_libs: [
-                "libformatter",
+                "libformatter_vendor",
                 "libdpframework",
                 "android.hardware.graphics.bufferqueue@2.0",
                 "libui",
@@ -3565,7 +3569,7 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "libion",
                 "libdmabufheap",
-                "libion_mtk",
+                "libion_mtk_vendor",
                 "libcodec2_mtk_c2store",
                 "libbinder_ndk",
                 "vendor.oplus.hardware.performance-V1-ndk_platform_vendor",
@@ -4111,7 +4115,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libutils",
                 "libui",
-                "vendor.oplus.hardware.cwb@1.0",
+                "vendor.oplus.hardware.cwb@1.0_vendor",
                 "vendor.mediatek.hardware.pq@2.10",
                 "libc++",
                 "libc",
@@ -4256,7 +4260,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libformatter",
+    name: "libformatter_vendor",
+    stem: "libformatter",
     owner: "oppo",
     strip: {
         none: true,
@@ -4267,7 +4272,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libformatter.so",
             ],
             shared_libs: [
-                "libion_mtk",
+                "libion_mtk_vendor",
                 "libdmabufheap",
                 "libutils",
                 "libion",
@@ -4650,7 +4655,7 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "libcutils",
                 "libion",
-                "libion_mtk",
+                "libion_mtk_vendor",
                 "libdmabufheap",
                 "libc++",
                 "libc",
@@ -4814,7 +4819,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "liblog",
-                "libion_mtk",
+                "libion_mtk_vendor",
                 "libion",
                 "libdmabufheap",
                 "libc++",
@@ -4830,7 +4835,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libion_mtk",
+    name: "libion_mtk_vendor",
+    stem: "libion_mtk",
     owner: "oppo",
     strip: {
         none: true,
@@ -4871,7 +4877,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libutils",
                 "liblog",
-                "libladder",
+                "libladder_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -5151,7 +5157,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libladder",
+    name: "libladder_vendor",
+    stem: "libladder",
     owner: "oppo",
     strip: {
         none: true,
@@ -5247,7 +5254,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libion",
-                "libion_mtk",
+                "libion_mtk_vendor",
                 "libcutils",
                 "liblog",
                 "libutils",
@@ -5436,7 +5443,7 @@ cc_prebuilt_library_shared {
                 "libmtknetcap",
                 "libwpfa",
                 "libnvram",
-                "libaedv",
+                "libaedv_vendor",
                 "libbinder",
                 "libmipc",
                 "libc++",
@@ -5762,7 +5769,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libmtkcam.debugwrapper",
                 "libmtkcam_ulog",
-                "libaedv",
+                "libaedv_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -6007,7 +6014,7 @@ cc_prebuilt_library_shared {
                 "libmtknetcap",
                 "libwpfa",
                 "libnvram",
-                "libaedv",
+                "libaedv_vendor",
                 "libbinder",
                 "libmipc",
                 "libc++",
@@ -6279,7 +6286,7 @@ cc_prebuilt_library_shared {
                 "libmtkcutils",
                 "libmtkproperty",
                 "libmtkrillog",
-                "libladder",
+                "libladder_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -6512,7 +6519,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libbase",
                 "libion",
-                "libion_mtk",
+                "libion_mtk_vendor",
                 "liblog",
                 "libcutils",
                 "libapu_mdw",
@@ -6631,7 +6638,7 @@ cc_prebuilt_library_shared {
                 "libbase",
                 "liblog",
                 "libion",
-                "libion_mtk",
+                "libion_mtk_vendor",
                 "libcutils",
                 "libmvpu_cic_ci_compiler",
                 "libmvpu_pattern",
@@ -6664,7 +6671,7 @@ cc_prebuilt_library_shared {
                 "libbase",
                 "liblog",
                 "libion",
-                "libion_mtk",
+                "libion_mtk_vendor",
                 "libcutils",
                 "libmvpu_cic_ci_compiler",
                 "libmvpu_pattern_pub",
@@ -6745,7 +6752,7 @@ cc_prebuilt_library_shared {
                 "libbase",
                 "liblog",
                 "libion",
-                "libion_mtk",
+                "libion_mtk_vendor",
                 "libcutils",
                 "libvpu",
                 "libc++",
@@ -7052,7 +7059,7 @@ cc_prebuilt_library_shared {
                 "libmtkcam_ulog",
                 "android.frameworks.sensorservice@1.0",
                 "android.hardware.sensors@1.0",
-                "libsensorndkbridge",
+                "libsensorndkbridge_vendor",
                 "libcam.utils.sensorprovider",
                 "libmtkcam_modulehelper",
                 "libcam.halsensor",
@@ -7212,7 +7219,7 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "android.frameworks.sensorservice@1.0",
                 "android.hardware.sensors@1.0",
-                "libsensorndkbridge",
+                "libsensorndkbridge_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -7259,11 +7266,11 @@ cc_prebuilt_library_shared {
                 "android.hardware.radio.config@1.1",
                 "android.hardware.radio.config@1.2",
                 "android.hardware.radio.config@1.3",
-                "vendor.mediatek.hardware.mtkradioex@3.0",
+                "vendor.mediatek.hardware.mtkradioex@3.0_vendor",
                 "libbinder",
                 "libhidlbase",
                 "libhidltransport",
-                "libaedv",
+                "libaedv_vendor",
                 "libcommcenterutils",
                 "libutils",
                 "libcommcenterfw",
@@ -7370,7 +7377,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libsensorndkbridge",
+    name: "libsensorndkbridge_vendor",
+    stem: "libsensorndkbridge",
     owner: "oppo",
     strip: {
         none: true,
@@ -7551,7 +7559,7 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libutils",
                 "libcutils",
-                "libion_mtk",
+                "libion_mtk_vendor",
                 "libion",
                 "libdmabufheap",
                 "libc++",
@@ -7579,7 +7587,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libmpbase",
-                "libOpenCL",
+                "libOpenCL_vendor",
                 "liblog",
                 "libc",
                 "libm",
@@ -7630,11 +7638,11 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libmpbase",
-                "libsensorndkbridge",
+                "libsensorndkbridge_vendor",
                 "libEGL",
                 "libGLESv3",
                 "libion",
-                "libOpenCL",
+                "libOpenCL_vendor",
                 "liblog",
                 "libc",
                 "libm",
@@ -7689,7 +7697,7 @@ cc_prebuilt_library_shared {
                 "libnetutils",
                 "liblog",
                 "libion",
-                "libion_mtk",
+                "libion_mtk_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -8129,7 +8137,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libion",
-                "libion_mtk",
+                "libion_mtk_vendor",
                 "libdmabufheap",
                 "liblog",
                 "libcutils",
@@ -9047,7 +9055,7 @@ cc_prebuilt_library_shared {
                 "libgralloc_extra",
                 "android.frameworks.sensorservice@1.0",
                 "android.hardware.sensors@1.0",
-                "libsensorndkbridge",
+                "libsensorndkbridge_vendor",
                 "libdrm",
                 "libc++",
                 "libc",
@@ -9504,7 +9512,7 @@ cc_prebuilt_library_shared {
                 "libprocessgroup",
                 "libmtkcam_ulog",
                 "libmtkcam.debugwrapper",
-                "libaedv",
+                "libaedv_vendor",
                 "libc",
                 "libm",
                 "libdl",
@@ -11049,7 +11057,7 @@ cc_prebuilt_library_shared {
                 "libcam.halisp.TopCtrlMgr",
                 "libcam.hal3a.v3.lsctbl.v4l2",
                 "lib3a.stat",
-                "libaedv",
+                "libaedv_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -11790,7 +11798,7 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "libcamalgo.utility",
                 "libcamalgo.platform",
-                "libOpenCL",
+                "libOpenCL_vendor",
                 "libdl",
                 "libc++",
                 "libc",
@@ -12092,7 +12100,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/mt6895/libcamalgo.platform2.so",
             ],
             shared_libs: [
-                "libion_mtk",
+                "libion_mtk_vendor",
                 "libion",
                 "libdmabufheap",
                 "libmtkcam_tuning_utils",
@@ -12592,7 +12600,7 @@ cc_prebuilt_library_shared {
                 "libcamera_metadata",
                 "libcustomer_ulog",
                 "libmtkcam_metadata",
-                "libaedv",
+                "libaedv_vendor",
                 "libutils",
                 "libcutils",
                 "lib3a.stat",
@@ -12868,7 +12876,7 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libutils",
                 "libcutils",
-                "libaedv",
+                "libaedv_vendor",
                 "libcam.hal3a.log",
                 "libmtkcam_stdutils",
                 "libmtkcam_metadata",
@@ -13608,7 +13616,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "liblog",
                 "libutils",
-                "libion_mtk",
+                "libion_mtk_vendor",
                 "libion",
                 "libimgsys_system",
                 "libimgsys_utils",
@@ -13699,7 +13707,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/mt6895/libimgsys_dip.so",
             ],
             shared_libs: [
-                "libion_mtk",
+                "libion_mtk_vendor",
                 "libion",
                 "libimgsys_system",
                 "libimgsys_utils",
@@ -13733,7 +13741,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/mt6895/libimgsys_drvcommon.so",
             ],
             shared_libs: [
-                "libion_mtk",
+                "libion_mtk_vendor",
                 "libion",
                 "libimgsys_system",
                 "libcutils",
@@ -13842,11 +13850,11 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/mt6895/libimgsys_me.so",
             ],
             shared_libs: [
-                "libaedv",
+                "libaedv_vendor",
                 "libcutils",
                 "liblog",
                 "libutils",
-                "libion_mtk",
+                "libion_mtk_vendor",
                 "libion",
                 "libimgsys_system",
                 "libimgsys_utils",
@@ -13880,7 +13888,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "liblog",
                 "libutils",
-                "libion_mtk",
+                "libion_mtk_vendor",
                 "libion",
                 "libimgsys_system",
                 "libimgsys_utils",
@@ -13947,10 +13955,10 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "liblog",
                 "libutils",
-                "libion_mtk",
+                "libion_mtk_vendor",
                 "libion",
                 "libimgsys_utils",
-                "libaedv",
+                "libaedv_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -13976,7 +13984,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/mt6895/libimgsys_taskhandler.so",
             ],
             shared_libs: [
-                "libion_mtk",
+                "libion_mtk_vendor",
                 "libion",
                 "libimgsys_utils",
                 "libimgsys_system",
@@ -13992,7 +14000,7 @@ cc_prebuilt_library_shared {
                 "libimgsys_drvcommon",
                 "libimgsys_adl",
                 "libutils",
-                "libaedv",
+                "libaedv_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -14052,7 +14060,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "liblog",
                 "libutils",
-                "libion_mtk",
+                "libion_mtk_vendor",
                 "libion",
                 "libimgsys_system",
                 "libimgsys_utils",
@@ -14152,7 +14160,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "liblog",
                 "libutils",
-                "libion_mtk",
+                "libion_mtk_vendor",
                 "libion",
                 "libimgsys_system",
                 "libimgsys_utils",
@@ -14477,8 +14485,8 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libutils",
                 "libcutils",
-                "libladder",
-                "libaedv",
+                "libladder_vendor",
+                "libaedv_vendor",
                 "libcustomer_ulog",
                 "libc++",
                 "libc",
@@ -14896,7 +14904,7 @@ cc_prebuilt_library_shared {
                 "libmtkcam_ulog",
                 "libmtkcam_stdutils",
                 "libcameracustom",
-                "libaedv",
+                "libaedv_vendor",
                 "libcam.halsensor",
                 "libmtkcam_jsonconvertor",
                 "libmtkcam_jsondata",
@@ -14927,7 +14935,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libcutils",
                 "libion",
-                "libion_mtk",
+                "libion_mtk_vendor",
                 "libmtkcam.debugwrapper",
                 "libutils",
                 "liblog",
@@ -15014,8 +15022,8 @@ cc_prebuilt_library_shared {
                 "libmtkcam.debugwrapper",
                 "libnativewindow",
                 "libion",
-                "libion_mtk",
-                "libaedv",
+                "libion_mtk_vendor",
+                "libaedv_vendor",
                 "libdmabufheap",
                 "libmtkcam_stdutils",
                 "libmtkcam_debugutils",
@@ -15380,7 +15388,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libmtkcam_imgbuf_v2",
                 "libion",
-                "libion_mtk",
+                "libion_mtk_vendor",
                 "libgralloc_extra",
                 "libmtkcam_hal_core_provider",
                 "libmtkcam_postprocprovider",
@@ -16597,7 +16605,7 @@ cc_prebuilt_library_shared {
                 "libmtkcam_streamutils",
                 "libcamera_metadata",
                 "libmtkcam_ulog",
-                "libaedv",
+                "libaedv_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -16850,8 +16858,8 @@ cc_prebuilt_library_shared {
                 "libmtkcam.debugwrapper",
                 "libnativewindow",
                 "libion",
-                "libion_mtk",
-                "libaedv",
+                "libion_mtk_vendor",
+                "libaedv_vendor",
                 "libmtkcam_stdutils",
                 "libmtkcam_debugutils",
                 "libmtkcam_grallocutils",
@@ -17111,7 +17119,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/mt6895/libmtkcam_mapping_mgr.so",
             ],
             shared_libs: [
-                "libaedv",
+                "libaedv_vendor",
                 "liblog",
                 "libutils",
                 "libcutils",
@@ -18831,7 +18839,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libmtkcam_ulog",
                 "libion",
-                "libion_mtk",
+                "libion_mtk_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -19260,7 +19268,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.mediatek.hardware.bluetooth.audio@2.1",
+    name: "vendor.mediatek.hardware.bluetooth.audio@2.1_vendor",
+    stem: "vendor.mediatek.hardware.bluetooth.audio@2.1",
     owner: "oppo",
     strip: {
         none: true,
@@ -19290,7 +19299,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.mediatek.hardware.bluetooth.audio@2.2",
+    name: "vendor.mediatek.hardware.bluetooth.audio@2.2_vendor",
+    stem: "vendor.mediatek.hardware.bluetooth.audio@2.2",
     owner: "oppo",
     strip: {
         none: true,
@@ -19302,7 +19312,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "android.hardware.audio.common@5.0",
-                "vendor.mediatek.hardware.bluetooth.audio@2.1",
+                "vendor.mediatek.hardware.bluetooth.audio@2.1_vendor",
                 "android.hidl.safe_union@1.0",
                 "libhidlbase",
                 "liblog",
@@ -19641,7 +19651,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.mediatek.hardware.lbs@1.0",
+    name: "vendor.mediatek.hardware.lbs@1.0_vendor",
+    stem: "vendor.mediatek.hardware.lbs@1.0",
     owner: "oppo",
     strip: {
         none: true,
@@ -19943,7 +19954,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.mediatek.hardware.mtkradioex@2.0",
+    name: "vendor.mediatek.hardware.mtkradioex@2.0_vendor",
+    stem: "vendor.mediatek.hardware.mtkradioex@2.0",
     owner: "oppo",
     strip: {
         none: true,
@@ -19977,7 +19989,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.mediatek.hardware.mtkradioex@3.0",
+    name: "vendor.mediatek.hardware.mtkradioex@3.0_vendor",
+    stem: "vendor.mediatek.hardware.mtkradioex@3.0",
     owner: "oppo",
     strip: {
         none: true,
@@ -20012,7 +20025,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.mediatek.hardware.netdagent@1.0",
+    name: "vendor.mediatek.hardware.netdagent@1.0_vendor",
+    stem: "vendor.mediatek.hardware.netdagent@1.0",
     owner: "oppo",
     strip: {
         none: true,
@@ -20943,7 +20957,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.oplus.hardware.cwb@1.0",
+    name: "vendor.oplus.hardware.cwb@1.0_vendor",
+    stem: "vendor.oplus.hardware.cwb@1.0",
     owner: "oppo",
     strip: {
         none: true,
@@ -21890,7 +21905,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libion",
-                "libion_mtk",
+                "libion_mtk_vendor",
                 "liblog",
                 "libdl",
                 "libc",
@@ -22198,7 +22213,7 @@ cc_prebuilt_library_shared {
                 "libapusys",
                 "libneuron_platform",
                 "libion",
-                "libion_mtk",
+                "libion_mtk_vendor",
                 "libvpu",
                 "libm",
                 "libc",
@@ -22379,7 +22394,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "liboplus-uah-client",
+    name: "liboplus-uah-client_vendor",
+    stem: "liboplus-uah-client",
     owner: "oppo",
     strip: {
         none: true,
@@ -22643,7 +22659,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.oplus.hardware.displaypanelfeature@1.0",
+    name: "vendor.oplus.hardware.displaypanelfeature@1.0_vendor",
+    stem: "vendor.oplus.hardware.displaypanelfeature@1.0",
     owner: "oppo",
     strip: {
         none: true,
@@ -22917,7 +22934,8 @@ android_app_import {
 }
 
 dex_import {
-    name: "mediatek-common",
+    name: "mediatek-common_vendor",
+    stem: "mediatek-common",
     owner: "oppo",
     jars: [
         "proprietary/system_ext/framework/mediatek-common.jar",
@@ -23237,7 +23255,7 @@ cc_prebuilt_binary {
 }
 
 sh_binary {
-    name: "chipinfo",
+    name: "chipinfo_vendor",
     owner: "oppo",
     src: "proprietary/vendor/bin/chipinfo",
     filename: "chipinfo",
@@ -23245,7 +23263,8 @@ sh_binary {
 }
 
 cc_prebuilt_binary {
-    name: "conninfra_loader",
+    name: "conninfra_loader_vendor",
+    stem: "conninfra_loader",
     owner: "oppo",
     target: {
         android_arm64: {
@@ -23720,7 +23739,7 @@ cc_prebuilt_binary {
                 "android.hardware.tetheroffload.config@1.0",
                 "android.hardware.tetheroffload.control@1.0",
                 "android.hardware.tetheroffload.control@1.1",
-                "vendor.mediatek.hardware.netdagent@1.0",
+                "vendor.mediatek.hardware.netdagent@1.0_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -23985,7 +24004,7 @@ cc_prebuilt_binary {
                 "libhidlbase",
                 "libhidltransport",
                 "libutils",
-                "vendor.mediatek.hardware.lbs@1.0",
+                "vendor.mediatek.hardware.lbs@1.0_vendor",
                 "lbs_hidl_service-impl",
                 "libc++",
                 "libc",
@@ -24046,14 +24065,14 @@ cc_prebuilt_binary {
                 "libz",
                 "liblog",
                 "libhardware",
-                "libladder",
+                "libladder_vendor",
                 "libDR",
                 "libutils",
                 "android.frameworks.sensorservice@1.0",
                 "android.hardware.sensors@1.0",
                 "libhidlbase",
                 "libhidltransport",
-                "libsensorndkbridge",
+                "libsensorndkbridge_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -24170,7 +24189,7 @@ cc_prebuilt_binary {
                 "libutils",
                 "libhidlbase",
                 "libifcutils_mtk",
-                "vendor.mediatek.hardware.netdagent@1.0",
+                "vendor.mediatek.hardware.netdagent@1.0_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -24254,7 +24273,8 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "wlan_assistant",
+    name: "wlan_assistant_vendor",
+    stem: "wlan_assistant",
     owner: "oppo",
     target: {
         android_arm64: {

@@ -743,7 +743,7 @@ PRODUCT_PACKAGES += \
     libMcTeeSoter \
     libMtkSpeechEnh \
     libNoFpsActor \
-    libOpenCL \
+    libOpenCL_vendor \
     libPanelChaplin_wrapper \
     libSQLiteModule_VER_ALL \
     libSensorSave \
@@ -756,13 +756,13 @@ PRODUCT_PACKAGES += \
     libaal_key \
     libaal_mtk \
     libadpcmdec_mtk \
-    libaedv \
+    libaedv_vendor \
     libaispq \
     libappgamepq \
     libapu_mdw \
     libapu_mdw_batch \
     libapusys \
-    libarmnn \
+    libarmnn_vendor \
     libarmnn_ndk.mtk.vndk \
     libaudio_engineer_test \
     libaudio_param_parser-vnd \
@@ -782,7 +782,7 @@ PRODUCT_PACKAGES += \
     libblisrc32_vendor \
     libbluetooth_mtk \
     libbluetooth_mtk_pure \
-    libbt-vendor \
+    libbt-vendor_vendor \
     libbwc \
     libcam.hal3a.soisdrv \
     libcamalgo.WarpMapResizer \
@@ -833,7 +833,7 @@ PRODUCT_PACKAGES += \
     libfgauge_gm30 \
     libfile_op \
     libforkexecwrap \
-    libformatter \
+    libformatter_vendor \
     libged \
     libgpu_aux \
     libgpud \
@@ -852,7 +852,7 @@ PRODUCT_PACKAGES += \
     libhwm \
     libifcutils_mtk \
     libimagebuffer_wrapper \
-    libion_mtk \
+    libion_mtk_vendor \
     libion_ulit \
     libjpeg-alpha-oal_vendor \
     libjpeg-alpha_vendor \
@@ -865,7 +865,7 @@ PRODUCT_PACKAGES += \
     libktvreverb \
     libktvsoundtouch \
     libktvvolume \
-    libladder \
+    libladder_vendor \
     libmidasserviceintf_aidl \
     libmipc \
     libmmagent \
@@ -937,7 +937,7 @@ PRODUCT_PACKAGES += \
     librpc \
     librt_extamp_intf \
     libscltm \
-    libsensorndkbridge \
+    libsensorndkbridge_vendor \
     libspeech_enh_lib \
     libspeechparser_vendor \
     libstorage_otp \
@@ -1263,8 +1263,8 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.apuware.utils@2.0 \
     vendor.mediatek.hardware.audio@6.1 \
     vendor.mediatek.hardware.audio@7.1 \
-    vendor.mediatek.hardware.bluetooth.audio@2.1 \
-    vendor.mediatek.hardware.bluetooth.audio@2.2 \
+    vendor.mediatek.hardware.bluetooth.audio@2.1_vendor \
+    vendor.mediatek.hardware.bluetooth.audio@2.2_vendor \
     vendor.mediatek.hardware.camera.atms@1.0 \
     vendor.mediatek.hardware.camera.bgservice@1.0 \
     vendor.mediatek.hardware.camera.bgservice@1.1 \
@@ -1276,7 +1276,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.camera.security@1.0 \
     vendor.mediatek.hardware.clientapi@1.0 \
     vendor.mediatek.hardware.composer_ext@1.0 \
-    vendor.mediatek.hardware.lbs@1.0 \
+    vendor.mediatek.hardware.lbs@1.0_vendor \
     vendor.mediatek.hardware.mmagent@1.0 \
     vendor.mediatek.hardware.mmagent@1.1 \
     vendor.mediatek.hardware.mms@1.0 \
@@ -1286,9 +1286,9 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mms@1.4 \
     vendor.mediatek.hardware.mms@1.5 \
     vendor.mediatek.hardware.mms@1.6 \
-    vendor.mediatek.hardware.mtkradioex@2.0 \
-    vendor.mediatek.hardware.mtkradioex@3.0 \
-    vendor.mediatek.hardware.netdagent@1.0 \
+    vendor.mediatek.hardware.mtkradioex@2.0_vendor \
+    vendor.mediatek.hardware.mtkradioex@3.0_vendor \
+    vendor.mediatek.hardware.netdagent@1.0_vendor \
     vendor.mediatek.hardware.neuropilot.agent@1.0 \
     vendor.mediatek.hardware.neuropilot.agent@1.1 \
     vendor.mediatek.hardware.neuropilot.agent@1.2 \
@@ -1317,7 +1317,7 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.cameraextension-V1-ndk_platform_vendor \
     vendor.oplus.hardware.cammidasservice-V1-ndk_platform_vendor \
     vendor.oplus.hardware.communicationcenter-V1-ndk_platform \
-    vendor.oplus.hardware.cwb@1.0 \
+    vendor.oplus.hardware.cwb@1.0_vendor \
     vendor.oplus.hardware.display.MixLut3D-V1-ndk_platform_vendor \
     vendor.oplus.hardware.olc2-V1-ndk_platform_vendor \
     vendor.oplus.hardware.osense.client-V1-ndk_platform_vendor \
@@ -1366,7 +1366,7 @@ PRODUCT_PACKAGES += \
     libnxpspeech \
     liboemcrypto \
     libolc_vnd_odm \
-    liboplus-uah-client \
+    liboplus-uah-client_vendor \
     libormshalclient \
     libosenseaidlhalclient \
     libosensehalclient \
@@ -1375,7 +1375,7 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.cameraextension-V1-ndk_platform_odm \
     vendor.oplus.hardware.cammidasservice-V1-ndk_platform_odm \
     vendor.oplus.hardware.commondcs-V1-ndk_platform_vendor \
-    vendor.oplus.hardware.displaypanelfeature@1.0 \
+    vendor.oplus.hardware.displaypanelfeature@1.0_vendor \
     vendor.oplus.hardware.olc2-V1-ndk_platform_odm \
     vendor.oplus.hardware.oplusSensor-V1-ndk_platform \
     vendor.oplus.hardware.orms@1.0 \
@@ -1386,7 +1386,7 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.touch-V2-ndk_platform \
     vendor.oplus.hardware.urcc-V1-ndk_platform \
     ImsService \
-    mediatek-common \
+    mediatek-common_vendor \
     mediatek-framework \
     mediatek-ims-base \
     mediatek-ims-common \
@@ -1415,8 +1415,8 @@ PRODUCT_PACKAGES += \
     bip_ap \
     ccci_mdinit \
     ccci_rpcd \
-    chipinfo \
-    conninfra_loader \
+    chipinfo_vendor \
+    conninfra_loader_vendor \
     fuelgauged \
     fuelgauged_nvram \
     android.hardware.bluetooth@1.1-service-mediatek \
@@ -1447,7 +1447,7 @@ PRODUCT_PACKAGES += \
     netdagent \
     nvram_daemon \
     volte_clientapi_ua \
-    wlan_assistant \
+    wlan_assistant_vendor \
     vtservice \
     vendor-oplus-hardware-oplusSensor-V1-service \
     vendor-oplus-hardware-touch-V2-service \
