@@ -1314,15 +1314,15 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.pq@2.9 \
     vendor.mediatek.hardware.videotelephony@1.0_vendor \
     vendor.oplus.hardware.appradioaidl-V1-ndk_platform \
-    vendor.oplus.hardware.cameraextension-V1-ndk_platform \
-    vendor.oplus.hardware.cammidasservice-V1-ndk_platform \
+    vendor.oplus.hardware.cameraextension-V1-ndk_platform_vendor \
+    vendor.oplus.hardware.cammidasservice-V1-ndk_platform_vendor \
     vendor.oplus.hardware.communicationcenter-V1-ndk_platform \
     vendor.oplus.hardware.cwb@1.0 \
-    vendor.oplus.hardware.display.MixLut3D-V1-ndk_platform \
-    vendor.oplus.hardware.olc2-V1-ndk_platform \
-    vendor.oplus.hardware.osense.client-V1-ndk_platform \
-    vendor.oplus.hardware.performance-V1-ndk_platform \
-    vendor.oplus.hardware.radio-V2-ndk_platform \
+    vendor.oplus.hardware.display.MixLut3D-V1-ndk_platform_vendor \
+    vendor.oplus.hardware.olc2-V1-ndk_platform_vendor \
+    vendor.oplus.hardware.osense.client-V1-ndk_platform_vendor \
+    vendor.oplus.hardware.performance-V1-ndk_platform_vendor \
+    vendor.oplus.hardware.radio-V2-ndk_platform_vendor \
     vendor.oplus.hardware.sendextcamcmd-V2-ndk_platform \
     vendor.oplus.hardware.wifi.supplicant-V4-ndk_platform \
     vendor.pixelworks.hardware.display@1.0 \
@@ -1374,7 +1374,7 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.biometrics.fingerprint@2.1_odm \
     vendor.oplus.hardware.cameraextension-V1-ndk_platform_odm \
     vendor.oplus.hardware.cammidasservice-V1-ndk_platform_odm \
-    vendor.oplus.hardware.commondcs-V1-ndk_platform \
+    vendor.oplus.hardware.commondcs-V1-ndk_platform_vendor \
     vendor.oplus.hardware.displaypanelfeature@1.0 \
     vendor.oplus.hardware.olc2-V1-ndk_platform_odm \
     vendor.oplus.hardware.oplusSensor-V1-ndk_platform \

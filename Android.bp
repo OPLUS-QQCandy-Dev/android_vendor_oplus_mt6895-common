@@ -493,7 +493,7 @@ cc_prebuilt_library_shared {
                 "libktvns",
                 "liboplus_audio_config",
                 "libbinder_ndk",
-                "vendor.oplus.hardware.performance-V1-ndk_platform",
+                "vendor.oplus.hardware.performance-V1-ndk_platform_vendor",
                 "libbwc",
                 "libhidltransport",
                 "libhwbinder",
@@ -639,7 +639,7 @@ cc_prebuilt_library_shared {
                 "vendor.pixelworks.hardware.display@1.1",
                 "libPanelChaplin_wrapper",
                 "vendor.display.PanelChaplin@1.0",
-                "vendor.oplus.hardware.display.MixLut3D-V1-ndk_platform",
+                "vendor.oplus.hardware.display.MixLut3D-V1-ndk_platform_vendor",
                 "libutilscallstack",
                 "libbinder_ndk",
                 "libui",
@@ -1328,8 +1328,8 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libhardware",
                 "libbinder_ndk",
-                "vendor.oplus.hardware.cameraextension-V1-ndk_platform",
-                "vendor.oplus.hardware.osense.client-V1-ndk_platform",
+                "vendor.oplus.hardware.cameraextension-V1-ndk_platform_vendor",
+                "vendor.oplus.hardware.osense.client-V1-ndk_platform_vendor",
                 "libhwconfigurationutil",
                 "libosenseaidlhalclient",
                 "libc++",
@@ -3519,7 +3519,7 @@ cc_prebuilt_library_shared {
                 "libcodec2_vpp_qt_plugin",
                 "libcodec2_vpp_rs_plugin",
                 "libbinder_ndk",
-                "vendor.oplus.hardware.performance-V1-ndk_platform",
+                "vendor.oplus.hardware.performance-V1-ndk_platform_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -3568,7 +3568,7 @@ cc_prebuilt_library_shared {
                 "libion_mtk",
                 "libcodec2_mtk_c2store",
                 "libbinder_ndk",
-                "vendor.oplus.hardware.performance-V1-ndk_platform",
+                "vendor.oplus.hardware.performance-V1-ndk_platform_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -3957,7 +3957,7 @@ cc_prebuilt_library_shared {
                 "libolc_vnd",
                 "libhardware",
                 "libbinder_ndk",
-                "vendor.oplus.hardware.osense.client-V1-ndk_platform",
+                "vendor.oplus.hardware.osense.client-V1-ndk_platform_vendor",
                 "libosenseaidlhalclient",
                 "libmtkcam_ulog",
                 "libhwconfigurationutil",
@@ -5189,7 +5189,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libmidasserviceintf_aidl.so",
             ],
             shared_libs: [
-                "vendor.oplus.hardware.cammidasservice-V1-ndk_platform",
+                "vendor.oplus.hardware.cammidasservice-V1-ndk_platform_vendor",
                 "android.frameworks.stats-V1-ndk",
                 "libbinder_ndk",
                 "libutils",
@@ -5806,7 +5806,7 @@ cc_prebuilt_library_shared {
                 "libmtkcam.debugwrapper",
                 "libmtkcam_metadata",
                 "libcam.halsensor",
-                "vendor.oplus.hardware.cammidasservice-V1-ndk_platform",
+                "vendor.oplus.hardware.cammidasservice-V1-ndk_platform_vendor",
                 "libmidasserviceintf_aidl",
                 "libMtkMediaController",
                 "libmtkcam_hal_custom_utils",
@@ -6956,7 +6956,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libolc_vnd.so",
             ],
             shared_libs: [
-                "vendor.oplus.hardware.olc2-V1-ndk_platform",
+                "vendor.oplus.hardware.olc2-V1-ndk_platform_vendor",
                 "libutils",
                 "liblog",
                 "libhidlbase",
@@ -7246,7 +7246,7 @@ cc_prebuilt_library_shared {
                 "libmtkconfigutils",
                 "libbinder_ndk",
                 "liblog",
-                "vendor.oplus.hardware.radio-V2-ndk_platform",
+                "vendor.oplus.hardware.radio-V2-ndk_platform_vendor",
                 "vendor.oplus.hardware.appradioaidl-V1-ndk_platform",
                 "android.hardware.radio@1.0",
                 "android.hardware.radio@1.1",
@@ -16203,7 +16203,7 @@ cc_prebuilt_library_shared {
                 "liboplus_mtkcam_lightsensorprovider",
                 "libmtkcam_ispEngine",
                 "liboplus.difference.analysis",
-                "vendor.oplus.hardware.osense.client-V1-ndk_platform",
+                "vendor.oplus.hardware.osense.client-V1-ndk_platform_vendor",
                 "libosenseaidlhalclient",
                 "libmtkcam_metaconv",
                 "libmtkcam_hwutils_android",
@@ -17559,7 +17559,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/mt6895/libmtkcam_pipelinemodel_session.so",
             ],
             shared_libs: [
-                "vendor.oplus.hardware.cammidasservice-V1-ndk_platform",
+                "vendor.oplus.hardware.cammidasservice-V1-ndk_platform_vendor",
                 "libmidasserviceintf_aidl",
                 "libcam.utils.sensorprovider",
                 "vendor.oplus.hardware.orms@1.0",
@@ -20866,7 +20866,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.oplus.hardware.cameraextension-V1-ndk_platform",
+    name: "vendor.oplus.hardware.cameraextension-V1-ndk_platform_vendor",
+    stem: "vendor.oplus.hardware.cameraextension-V1-ndk_platform",
     owner: "oppo",
     strip: {
         none: true,
@@ -20891,7 +20892,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.oplus.hardware.cammidasservice-V1-ndk_platform",
+    name: "vendor.oplus.hardware.cammidasservice-V1-ndk_platform_vendor",
+    stem: "vendor.oplus.hardware.cammidasservice-V1-ndk_platform",
     owner: "oppo",
     strip: {
         none: true,
@@ -20969,7 +20971,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.oplus.hardware.display.MixLut3D-V1-ndk_platform",
+    name: "vendor.oplus.hardware.display.MixLut3D-V1-ndk_platform_vendor",
+    stem: "vendor.oplus.hardware.display.MixLut3D-V1-ndk_platform",
     owner: "oppo",
     strip: {
         none: true,
@@ -20994,7 +20997,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.oplus.hardware.olc2-V1-ndk_platform",
+    name: "vendor.oplus.hardware.olc2-V1-ndk_platform_vendor",
+    stem: "vendor.oplus.hardware.olc2-V1-ndk_platform",
     owner: "oppo",
     strip: {
         none: true,
@@ -21019,7 +21023,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.oplus.hardware.osense.client-V1-ndk_platform",
+    name: "vendor.oplus.hardware.osense.client-V1-ndk_platform_vendor",
+    stem: "vendor.oplus.hardware.osense.client-V1-ndk_platform",
     owner: "oppo",
     strip: {
         none: true,
@@ -21044,7 +21049,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.oplus.hardware.performance-V1-ndk_platform",
+    name: "vendor.oplus.hardware.performance-V1-ndk_platform_vendor",
+    stem: "vendor.oplus.hardware.performance-V1-ndk_platform",
     owner: "oppo",
     strip: {
         none: true,
@@ -21069,7 +21075,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.oplus.hardware.radio-V2-ndk_platform",
+    name: "vendor.oplus.hardware.radio-V2-ndk_platform_vendor",
+    stem: "vendor.oplus.hardware.radio-V2-ndk_platform",
     owner: "oppo",
     strip: {
         none: true,
@@ -22352,7 +22359,7 @@ cc_prebuilt_library_shared {
                 "proprietary/odm/lib64/libolc_vnd.so",
             ],
             shared_libs: [
-                "vendor.oplus.hardware.olc2-V1-ndk_platform",
+                "vendor.oplus.hardware.olc2-V1-ndk_platform_vendor",
                 "libutils",
                 "liblog",
                 "libhidlbase",
@@ -22443,7 +22450,7 @@ cc_prebuilt_library_shared {
                 "proprietary/odm/lib64/libosenseaidlhalclient.so",
             ],
             shared_libs: [
-                "vendor.oplus.hardware.osense.client-V1-ndk_platform",
+                "vendor.oplus.hardware.osense.client-V1-ndk_platform_vendor",
                 "libbase",
                 "libbinder_ndk",
                 "liblog",
@@ -22609,7 +22616,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.oplus.hardware.commondcs-V1-ndk_platform",
+    name: "vendor.oplus.hardware.commondcs-V1-ndk_platform_vendor",
+    stem: "vendor.oplus.hardware.commondcs-V1-ndk_platform",
     owner: "oppo",
     strip: {
         none: true,
@@ -24387,10 +24395,10 @@ cc_prebuilt_binary {
                 "android.hardware.biometrics.fingerprint@2.3",
                 "android.hardware.biometrics.fingerprint@2.2",
                 "android.hardware.biometrics.fingerprint@2.1",
-                "vendor.oplus.hardware.performance-V1-ndk_platform",
-                "vendor.oplus.hardware.osense.client-V1-ndk_platform",
+                "vendor.oplus.hardware.performance-V1-ndk_platform_vendor",
+                "vendor.oplus.hardware.osense.client-V1-ndk_platform_vendor",
                 "libosenseaidlhalclient",
-                "vendor.oplus.hardware.commondcs-V1-ndk_platform",
+                "vendor.oplus.hardware.commondcs-V1-ndk_platform_vendor",
                 "libMcClient",
                 "anc.hal",
                 "libolc_vnd",
