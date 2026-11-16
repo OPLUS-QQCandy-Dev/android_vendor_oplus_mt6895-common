@@ -756,7 +756,7 @@ PRODUCT_PACKAGES += \
     libaal_key \
     libaal_mtk \
     libadpcmdec_mtk \
-    libaedv_vendor \
+    libaedv \
     libaispq \
     libappgamepq \
     libapu_mdw \
@@ -782,7 +782,7 @@ PRODUCT_PACKAGES += \
     libblisrc32_vendor \
     libbluetooth_mtk \
     libbluetooth_mtk_pure \
-    libbt-vendor_vendor \
+    libbt-vendor \
     libbwc \
     libcam.hal3a.soisdrv \
     libcamalgo.WarpMapResizer \
@@ -852,7 +852,7 @@ PRODUCT_PACKAGES += \
     libhwm \
     libifcutils_mtk \
     libimagebuffer_wrapper \
-    libion_mtk_vendor \
+    libion_mtk \
     libion_ulit \
     libjpeg-alpha-oal_vendor \
     libjpeg-alpha_vendor \
@@ -865,7 +865,7 @@ PRODUCT_PACKAGES += \
     libktvreverb \
     libktvsoundtouch \
     libktvvolume \
-    libladder_vendor \
+    libladder \
     libmidasserviceintf_aidl \
     libmipc \
     libmmagent \
@@ -937,7 +937,7 @@ PRODUCT_PACKAGES += \
     librpc \
     librt_extamp_intf \
     libscltm \
-    libsensorndkbridge_vendor \
+    libsensorndkbridge \
     libspeech_enh_lib \
     libspeechparser_vendor \
     libstorage_otp \
@@ -1366,7 +1366,7 @@ PRODUCT_PACKAGES += \
     libnxpspeech \
     liboemcrypto \
     libolc_vnd_odm \
-    liboplus-uah-client_vendor \
+    liboplus-uah-client \
     libormshalclient \
     libosenseaidlhalclient \
     libosensehalclient \
@@ -1386,7 +1386,7 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.touch-V2-ndk_platform \
     vendor.oplus.hardware.urcc-V1-ndk_platform \
     ImsService \
-    mediatek-common_vendor \
+    mediatek-common \
     mediatek-framework \
     mediatek-ims-base \
     mediatek-ims-common \
@@ -1415,8 +1415,8 @@ PRODUCT_PACKAGES += \
     bip_ap \
     ccci_mdinit \
     ccci_rpcd \
-    chipinfo_vendor \
-    conninfra_loader_vendor \
+    chipinfo \
+    conninfra_loader \
     fuelgauged \
     fuelgauged_nvram \
     android.hardware.bluetooth@1.1-service-mediatek \
@@ -1447,7 +1447,7 @@ PRODUCT_PACKAGES += \
     netdagent \
     nvram_daemon \
     volte_clientapi_ua \
-    wlan_assistant_vendor \
+    wlan_assistant \
     vtservice \
     vendor-oplus-hardware-oplusSensor-V1-service \
     vendor-oplus-hardware-touch-V2-service \
