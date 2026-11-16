@@ -21538,7 +21538,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libsink",
+    name: "libsink_vendor",
+    stem: "libsink",
     owner: "oppo",
     strip: {
         none: true,

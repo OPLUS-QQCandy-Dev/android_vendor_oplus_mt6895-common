@@ -1337,7 +1337,7 @@ PRODUCT_PACKAGES += \
     libmtk_vt_service \
     libmtk_vt_wrapper \
     libsignal \
-    libsink \
+    libsink_vendor \
     libsource \
     libvcodec_cap \
     libvcodec_capenc \
