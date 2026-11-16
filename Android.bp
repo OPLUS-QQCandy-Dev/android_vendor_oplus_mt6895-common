@@ -14380,7 +14380,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libmnl",
+    name: "libmnl_oplus",
+    stem: "libmnl",
     owner: "oppo",
     strip: {
         none: true,
@@ -24027,7 +24028,7 @@ cc_prebuilt_binary {
             ],
             shared_libs: [
                 "libshim_sensors",
-                "libmnl",
+                "libmnl_oplus",
                 "libcurl",
                 "libcutils",
                 "libnvram",

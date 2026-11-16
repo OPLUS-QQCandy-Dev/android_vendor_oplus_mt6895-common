@@ -1141,7 +1141,7 @@ PRODUCT_PACKAGES += \
     liblpnr \
     libmfllcore \
     libmgr3a.adapt \
-    libmnl \
+    libmnl_oplus \
     libmtk_drvb \
     libmtkcam.atmseventmgr \
     libmtkcam.debugwrapper \
