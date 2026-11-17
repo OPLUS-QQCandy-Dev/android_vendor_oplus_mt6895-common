@@ -16,7 +16,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6895-common/proprietary/odm/etc/audio/audio_param/HpImpedance_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/HpImpedance_AudioParam.xml \
     vendor/oplus/mt6895-common/proprietary/odm/etc/audio/audio_param/HpImpedance_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/HpImpedance_ParamUnitDesc.xml \
     vendor/oplus/mt6895-common/proprietary/odm/etc/audio/audio_param/MicInfo_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/MicInfo_AudioParam.xml \
-    vendor/oplus/mt6895-common/proprietary/odm/etc/audio/audio_param/MicInfo_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/MicInfo_ParamUnitDesc.xml \
     vendor/oplus/mt6895-common/proprietary/odm/etc/audio/audio_param/PlaybackACF_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/PlaybackACF_AudioParam.xml \
     vendor/oplus/mt6895-common/proprietary/odm/etc/audio/audio_param/PlaybackACF_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/PlaybackACF_ParamUnitDesc.xml \
     vendor/oplus/mt6895-common/proprietary/odm/etc/audio/audio_param/PlaybackDRC_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/PlaybackDRC_AudioParam.xml \
@@ -450,7 +449,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6895-common/proprietary/vendor/app/mcRegistry/5020170115e016302017012521300000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/5020170115e016302017012521300000.tlbin \
     vendor/oplus/mt6895-common/proprietary/vendor/app/mcRegistry/abcd270ea5c44c58bcd3384a2fa2539e.tabin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/abcd270ea5c44c58bcd3384a2fa2539e.tabin \
     vendor/oplus/mt6895-common/proprietary/vendor/app/mcRegistry/e97c270ea5c44c58bcd3384a2fa2539e.tabin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/e97c270ea5c44c58bcd3384a2fa2539e.tabin \
-    vendor/oplus/mt6895-common/proprietary/vendor/etc/MNL_Config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/MNL_Config.xml \
     vendor/oplus/mt6895-common/proprietary/vendor/etc/apdb/APDB_MT6895___W2242:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6895___W2242 \
     vendor/oplus/mt6895-common/proprietary/vendor/etc/apdb/APDB_MT6895___W2242_ENUM:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6895___W2242_ENUM \
     vendor/oplus/mt6895-common/proprietary/vendor/etc/audio_device.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_device.xml \
@@ -465,7 +463,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6895-common/proprietary/vendor/etc/audio_param/HpImpedance_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/HpImpedance_AudioParam.xml \
     vendor/oplus/mt6895-common/proprietary/vendor/etc/audio_param/HpImpedance_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/HpImpedance_ParamUnitDesc.xml \
     vendor/oplus/mt6895-common/proprietary/vendor/etc/audio_param/MicInfo_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/MicInfo_AudioParam.xml \
-    vendor/oplus/mt6895-common/proprietary/vendor/etc/audio_param/MicInfo_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/MicInfo_ParamUnitDesc.xml \
     vendor/oplus/mt6895-common/proprietary/vendor/etc/audio_param/PlaybackACF_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackACF_AudioParam.xml \
     vendor/oplus/mt6895-common/proprietary/vendor/etc/audio_param/PlaybackACF_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackACF_ParamUnitDesc.xml \
     vendor/oplus/mt6895-common/proprietary/vendor/etc/audio_param/PlaybackDRC_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackDRC_AudioParam.xml \
@@ -1773,3 +1770,8 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libpqpconfig_so \
     vendor_lib64_libstereoinfoaccessor_vsdof_so \
     vendor_lib64_libvainr_model_so
+
+PRODUCT_PACKAGES += \
+    MicInfo_ParamUnitDesc_odm \
+    MicInfo_ParamUnitDesc_vendor \
+    MNL_Config

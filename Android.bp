@@ -26301,3 +26301,27 @@ install_symlink {
     installed_location: "lib64/libvainr_model.so",
     symlink_target: "/vendor/lib64/mt6895/libvainr_model.so",
 }
+
+prebuilt_etc {
+    name: "MicInfo_ParamUnitDesc_odm",
+    src: "proprietary/odm/etc/audio/audio_param/MicInfo_ParamUnitDesc.xml",
+    filename: "MicInfo_ParamUnitDesc.xml",
+    sub_dir: "etc/audio/audio_param",
+    device_specific: true,
+}
+
+prebuilt_etc {
+    name: "MicInfo_ParamUnitDesc_vendor",
+    src: "proprietary/vendor/etc/audio_param/MicInfo_ParamUnitDesc.xml",
+    filename: "MicInfo_ParamUnitDesc.xml",
+    sub_dir: "etc/audio_param",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "MNL_Config",
+    src: "proprietary/vendor/etc/MNL_Config.xml",
+    filename: "MNL_Config.xml",
+    sub_dir: "etc",
+    vendor: true,
+}
