@@ -13,6 +13,9 @@ on post-fs
     mkdir /mnt/vendor/persist/mcRegistry 0771 system system
     chown system system /mnt/vendor/persist/mcRegistry/Store_1.tf
 
+    # Start Trustonic daemon early; keymint/keystore2 depend on it
+    start mobicore
+
     # Create camera to store camera info
     mkdir /mnt/vendor/persist/camera 0775 system system
 
